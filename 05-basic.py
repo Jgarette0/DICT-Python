@@ -11,3 +11,14 @@ second = int(input("Input second number"))
 
 
 print("The total sum is equals to " + str(addNum(first,second)))
+
+#tuple
+def get_coordinates():
+    x = 10
+    y = 20
+    return x, y
+
+coordinates = get_coordinates()
+print(coordinates)  # Output: (10, 20)
+
+# In this section it returns x and y, unlike javascript it only a single value, but in python if you return a multiple value it will result to returning a tuple which is a paranthesis containing values
