@@ -34,5 +34,5 @@ for ngalan in name:
     continue
    print(i)
 
-#part 1
+
    
